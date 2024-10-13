@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_languages_languages",
+  "info": {
+    "displayName": "Languages",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

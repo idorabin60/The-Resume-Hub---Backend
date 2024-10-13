@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeid": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "summery": {
+      "type": "text"
+    },
+    "Experience": {
+      "displayName": "Experience ",
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience"
+    },
+    "linkdin": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skills"
+    },
+    "Languages": {
+      "displayName": "Languages",
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.languages"
+    },
+    "Educations": {
+      "displayName": "Educations",
+      "type": "component",
+      "repeatable": true,
+      "component": "educations.educations"
+    },
+    "company": {
+      "type": "string"
+    },
+    "aboutTheJob": {
+      "type": "text"
+    },
+    "lastUpdated": {
+      "type": "date"
+    },
+    "jobLink": {
+      "type": "text"
+    }
+  }
+}

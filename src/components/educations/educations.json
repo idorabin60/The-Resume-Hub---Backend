@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_educations_educations",
+  "info": {
+    "displayName": "Educations",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "institute": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "summery": {
+      "type": "text"
+    }
+  }
+}
